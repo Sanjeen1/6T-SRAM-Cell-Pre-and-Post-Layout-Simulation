@@ -1,0 +1,1 @@
+Layout is done on magic VLSI tool then extracted all by "extract all" command to generate EXT file and then convert into spice file by "ext2spice command" to generate SPICE file. 

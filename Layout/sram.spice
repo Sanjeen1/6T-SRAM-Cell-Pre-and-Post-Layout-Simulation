@@ -1,0 +1,37 @@
+* SPICE3 file created from sram.ext - technology: tsmc
+
+.include ./tsmc180nm.txt
+.option scale=0.06u
+
+
+Vpower vdd 0 3.3 
+Vwrite word 0 pulse(0 ,3.3 ,0 ,1p, 1p ,10n, 20n)
+Vbit bit 0 pulse(0 ,3.3, 0 ,1p, 1p, 10n, 15n)
+
+
+M1000 Q word bit Gnd nfet w=15 l=8
++  ad=333 pd=104 as=225 ps=60
+M1001 Gnd bit a_84_n16# Gnd nfet w=14 l=8
++  ad=420 pd=144 as=364 ps=108
+M1002 a_84_n16# word a_n1_n46# Gnd nfet w=14 l=8
++  ad=0 pd=0 as=308 ps=100
+M1003 vdd bit a_84_n16# vdd pfet w=10 l=8
++  ad=300 pd=120 as=130 ps=46
+M1004 Gnd a_n1_n46# Q Gnd nfet w=14 l=8
++  ad=0 pd=0 as=0 ps=0
+M1005 a_n1_n46# Q Gnd Gnd nfet w=14 l=8
++  ad=0 pd=0 as=0 ps=0
+M1006 vdd a_n1_n46# Q vdd pfet w=10 l=8
++  ad=0 pd=0 as=150 ps=50
+M1007 a_n1_n46# Q vdd vdd pfet w=10 l=8
++  ad=130 pd=46 as=0 ps=0
+
+
+.control
+run
+setplot tran
+plot Q bit+4 word+8
+.endc
+
+.tran 10n 100n 
+.end
