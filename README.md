@@ -59,7 +59,7 @@ In this project, the following steps are carried out:
 
 ### 🔹 Post-layout Simulation Waveform
 
-<img width="752" height="481" alt="image" src="https://github.com/user-attachments/assets/8b1caba1-574c-4c56-a005-0486e8a63e91" />
+<img width="1365" height="737" alt="image" src="https://github.com/user-attachments/assets/e3644352-eb6f-4854-a28d-af72707023c7" />
 
 ---
 
