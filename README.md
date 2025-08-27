@@ -1,8 +1,6 @@
 # 6T-SRAM-Cell-Pre-and-Post-Layout-Simulation
 Pre-layout and post-layout simulation of a 6T SRAM cell using open-source EDA tools. This project covers schematic design, SPICE simulation, physical layout in Magic VLSI, parasitic extraction, and verification. Includes waveform analysis for read/write operations, comparison between ideal (pre-layout) and realistic (post-layout with parasitics).
 
-# 6T-SRAM-Cell-Pre-and-Post-Layout-Simulation
-
 This repository contains the design, simulation, and verification of a **6T SRAM Cell** using open-source EDA tools.  
 The project demonstrates the complete flow from schematic design to layout verification, including **pre-layout** and **post-layout simulations**.
 
@@ -48,20 +46,20 @@ In this project, the following steps are carried out:
 ## 🖼️ Results and Screenshots
 
 ### 🔹 Layout of 6T SRAM Cell
-*(Upload screenshot of layout here)*  
-![Layout Screenshot](PLACEHOLDER_LAYOUT_IMAGE)
+
+![more optimized with area](https://github.com/user-attachments/assets/23645e5a-305c-448f-9cf0-0773bb466292)
 
 ---
 
 ### 🔹 Pre-layout Simulation Waveform
-*(Upload pre-layout simulation waveform here)*  
-![Pre-layout Simulation](PLACEHOLDER_PRELAYOUT_IMAGE)
+
+![Pre layout simulation_LTSPICE](https://github.com/user-attachments/assets/4beef212-b09c-49c1-88fa-7a5c06f2e226)
 
 ---
 
 ### 🔹 Post-layout Simulation Waveform
-*(Upload post-layout simulation waveform here)*  
-![Post-layout Simulation](PLACEHOLDER_POSTLAYOUT_IMAGE)
+
+<img width="752" height="481" alt="image" src="https://github.com/user-attachments/assets/8b1caba1-574c-4c56-a005-0486e8a63e91" />
 
 ---
 
@@ -71,10 +69,4 @@ In this project, the following steps are carried out:
 - **Ngspice / LTSpice** → Circuit simulations (pre-layout and post-layout).  
 - **TSMC 180nm PDK** → Technology file used for device modeling.  
 
----
 
-## 🚀 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/6T-SRAM-Cell-Pre-and-Post-Layout-Simulation.git
