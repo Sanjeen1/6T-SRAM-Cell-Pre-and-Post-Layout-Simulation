@@ -61,6 +61,14 @@ In this project, the following steps are carried out:
 
 <img width="1365" height="737" alt="image" src="https://github.com/user-attachments/assets/e3644352-eb6f-4854-a28d-af72707023c7" />
 
+**Write speed -**
+
+<img width="1105" height="42" alt="image" src="https://github.com/user-attachments/assets/4f066172-efdb-4d03-a686-d62b64719b91" />
+
+<img width="754" height="237" alt="image" src="https://github.com/user-attachments/assets/09c3c1b7-e78f-4ce2-a9b9-1524749ecaf4" />
+
+Write speed is 0.759 pico second.
+
 ---
 
 ## ⚙️ Tools Used
