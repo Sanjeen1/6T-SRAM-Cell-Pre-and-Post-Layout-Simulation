@@ -67,7 +67,7 @@ In this project, the following steps are carried out:
 
 <img width="754" height="237" alt="image" src="https://github.com/user-attachments/assets/09c3c1b7-e78f-4ce2-a9b9-1524749ecaf4" />
 
-**Write speed is 0.759 pico second.**
+**Write speed is 0.759 pico second.(note that time will be too low when parasitics are absent and when parasitics are present then time wiil be higher which occurs in practical scenario.)**
 
 ---
 
